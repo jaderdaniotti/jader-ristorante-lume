@@ -18,13 +18,9 @@ const Home = () => {
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         {/* Background Image Overlay */}
         <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url(${immagini.piatto1})`,
-            opacity: 0.3
-          }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-zinc-950/90 to-zinc-950"></div>
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat">
+            <video src={immagini.background} autoPlay loop muted className="w-full h-full object-cover" />
+          <div className="absolute inset-0 bg-gradient-to-b from-zinc-950 via-zinc-950/50 to-zinc-950"></div>
         </div>
         
         <div className="container mx-auto px-6 lg:px-12 py-32 relative z-10">
