@@ -4,13 +4,15 @@ import App from './App.jsx'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
 
-// Configurazione AOS per animazioni minimal e fluide
+// Configurazione AOS – easing fluido per evitare animazioni a scatti
 Aos.init({
-  duration: 800,
-  easing: 'ease-out-cubic',
+  duration: 400,
+  easing: 'ease-out',
   once: true,
-  offset: 100,
+  offset: 80,
   delay: 0,
+  disable: false,
+  startEvent: 'DOMContentLoaded',
 });
 
 createRoot(document.getElementById('root')).render(

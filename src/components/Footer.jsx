@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaInstagram, FaFacebook } from "react-icons/fa";
+import { infoBar } from "../data/menuAlNazionale";
 
 const Footer = () => (
   <footer className="bg-zinc-950 text-zinc-400 border-t border-zinc-800">
@@ -10,12 +11,12 @@ const Footer = () => (
         {/* Colonna 1 - Logo e Descrizione */}
         <div className="space-y-4">
           <div>
-            <h3 className="text-2xl font-light tracking-wider text-white mb-2">LUME</h3>
-            <p className="text-xs tracking-widest text-zinc-500 mb-4">RISTORANTE MILANO</p>
+            <h3 className="text-2xl font-light tracking-wider text-white mb-2">{infoBar.nomeCorto}</h3>
+            <p className="text-xs tracking-widest text-zinc-500 mb-4">BAR · {infoBar.citta.toUpperCase()}</p>
           </div>
           <p className="text-sm font-light leading-relaxed">
-            Cucina raffinata nel cuore di Milano. 
-            Tradizione italiana reinterpretata con creatività e rispetto per la qualità.
+            Brioches, aperitivi, piatti caldi e taglieri nel centro storico di Gemona.
+            Mangia, bevi e divertiti al Nazionale.
           </p>
         </div>
 
@@ -26,14 +27,11 @@ const Footer = () => (
             <Link to="/" className="hover:text-white transition-colors text-sm font-light">
               Home
             </Link>
-            <a href="/#about" className="hover:text-white transition-colors text-sm font-light">
-              Storia
-            </a>
-            <a href="/#menu-preview" className="hover:text-white transition-colors text-sm font-light">
+            <a href="/#mangia-bevi" className="hover:text-white transition-colors text-sm font-light">
               Menu
             </a>
             <Link to="/menu" className="hover:text-white transition-colors text-sm font-light">
-              Menu Completo
+              Menu Online
             </Link>
             <a href="/#contatti" className="hover:text-white transition-colors text-sm font-light">
               Contatti
@@ -48,20 +46,20 @@ const Footer = () => (
             <div className="flex items-start gap-3">
               <FaMapMarkerAlt className="text-zinc-500 mt-1 flex-shrink-0" />
               <div>
-                <p>Via Brera, 12</p>
-                <p>20121 Milano (MI)</p>
+                <p>{infoBar.indirizzo}</p>
+                <p>{infoBar.citta} {infoBar.cap}</p>
               </div>
             </div>
             <div className="flex items-center gap-3">
               <FaPhone className="text-zinc-500 flex-shrink-0" />
-              <a href="tel:+390212345678" className="hover:text-white transition-colors">
-                +39 02 1234 5678
+              <a href={`tel:${infoBar.telefono.replace(/\s/g, "")}`} className="hover:text-white transition-colors">
+                {infoBar.telefono}
               </a>
             </div>
             <div className="flex items-center gap-3">
               <FaEnvelope className="text-zinc-500 flex-shrink-0" />
-              <a href="mailto:info@lume-milano.it" className="hover:text-white transition-colors">
-                info@lume-milano.it
+              <a href={`mailto:${infoBar.email}`} className="hover:text-white transition-colors">
+                {infoBar.email}
               </a>
             </div>
           </div>
@@ -72,7 +70,7 @@ const Footer = () => (
           <h3 className="text-white font-light tracking-wide mb-4">SEGUICI</h3>
           <div className="flex gap-3 mb-6">
             <a 
-              href="https://instagram.com" 
+              href={infoBar.social.instagram} 
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 border border-zinc-700 flex items-center justify-center hover:bg-white hover:text-zinc-950 transition-all duration-300"
@@ -81,7 +79,7 @@ const Footer = () => (
               <FaInstagram />
             </a>
             <a 
-              href="https://facebook.com" 
+              href={infoBar.social.facebook} 
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 border border-zinc-700 flex items-center justify-center hover:bg-white hover:text-zinc-950 transition-all duration-300"
@@ -92,8 +90,7 @@ const Footer = () => (
           </div>
           <div className="text-sm font-light">
             <p className="text-white mb-2">Orari</p>
-            <p>Mar - Dom: 19:00 - 23:30</p>
-            <p>Lunedì: Chiuso</p>
+            <p>{infoBar.orari}</p>
           </div>
         </div>
       </div>
@@ -102,7 +99,7 @@ const Footer = () => (
       <div className="border-t border-zinc-800 pt-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-light">
           <p>
-            &copy; {new Date().getFullYear()} LUME Ristorante Milano. Tutti i diritti riservati.
+            &copy; {new Date().getFullYear()} {infoBar.nome}. Tutti i diritti riservati.
           </p>
           <div className="flex gap-6">
             <a href="#" className="hover:text-white transition-colors">

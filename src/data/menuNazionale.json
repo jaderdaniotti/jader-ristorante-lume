@@ -1,0 +1,384 @@
+{
+  "categorie": [
+    {
+      "id": "aperitivi-birre",
+      "titolo": "Aperitivi e birre",
+      "sottocategorie": [
+        {
+          "nome": "Americani",
+          "items": [
+            { "name": "Negroni Al Nazionale", "desc": "Campari, vermouth carpano, liquore vaniglia, soda e fava tonka", "price": "7,00" },
+            { "name": "Il classico", "desc": "Campari, Carpano classico, soda", "price": "6,50" },
+            { "name": "Cocchi", "desc": "Campari, Vermouth Cocchi, soda", "price": "6,00" },
+            { "name": "Punt&Mes", "desc": "Campari, Vermouth Punt&Mes, soda", "price": "6,50" },
+            { "name": "Rosso Rubino", "desc": "Campari, Vermouth Martini Rosso rubino, soda", "price": "7,50" },
+            { "name": "Vermouth del Professore", "desc": "Campari, Vermouth del Professore, soda", "price": "7,00" },
+            { "name": "Americano Carlo Alberto", "desc": "Campari, vermouth Carlo Alberto, soda", "price": "7,00" },
+            { "name": "Americano Cocchi Tenace", "desc": "Bitter Tenace, vermouth Cocchi, soda", "price": "7,50" },
+            { "name": "Negroni", "desc": "Campari, Carpano classico, gin", "price": "7,00" },
+            { "name": "Antica formula", "desc": "Campari, Carpano antica formula, soda", "price": "8,00" },
+            { "name": "Negroni sbagliato", "desc": "Campari, Carpano classico, Prosecco", "price": "6,50" },
+            { "name": "The Boulevadier", "desc": "Campari, Carpano classico, whisky bourbon", "price": "7,50" },
+            { "name": "Milano Torino", "desc": "Campari, Carpano classico, arancia", "price": "6,50" },
+            { "name": "American Green", "desc": "p31, Martini bianco, soda", "price": "6,50" },
+            { "name": "Americano cioccolato", "desc": "Bitter fusetti cacao, carpano classico, soda", "price": "8,00" },
+            { "name": "Antica Torino", "desc": "Campari, antica Torino, soda", "price": "7,50" },
+            { "name": "Dopo teatro", "desc": "Campari, dopo teatro, soda", "price": "7,50" },
+            { "name": "Carlo Alberto riserva", "desc": "Campari, Carlo Alberto riserva, soda", "price": "8,00" },
+            { "name": "Etrusco nero", "desc": "Etrusco nero, Campari, soda", "price": "7,00" }
+          ]
+        },
+        {
+          "nome": "Spritz",
+          "items": [
+            { "name": "Spritz Aperol", "desc": "Aperol, Prosecco, soda", "price": "4,00" },
+            { "name": "Spritz Campari", "desc": "Campari, Prosecco, soda", "price": "4,50" },
+            { "name": "Spritz Hugo", "desc": "Sciroppo sambuco, Prosecco, soda", "price": "4,50" },
+            { "name": "Spritz Hugo Violetta", "desc": "Sciroppo violetta, prosecco, soda", "price": "4,00" },
+            { "name": "Pimm's", "desc": "Pimm's, ginger ale, cetriolo, frutta e agrumi", "price": "7,00" },
+            { "name": "Green Spritz", "desc": "P31, Prosecco, lemon, spuma sambuco", "price": "4,50" }
+          ]
+        },
+        {
+          "nome": "Birre",
+          "items": [
+            { "name": "Radler piccola", "price": "3,00" },
+            { "name": "Radler grande", "price": "5,00" },
+            { "name": "IPA Anti korpo 300 ml", "desc": "Pale lager setosa e succosa, sentori tropicali. Gluten free.", "price": "4,00", "tags": ["Senza glutine"] },
+            { "name": "IPA anti korpo 500 ml", "desc": "Come 300 ml. Gluten free.", "price": "7,00", "tags": ["Senza glutine"] },
+            { "name": "Birra Auer Braü 30 cl", "desc": "Helles bavarese, malto e cereali.", "price": "3,00", "tags": ["anidride solforosa e solfiti", "glutine", "Frutta a guscio"] },
+            { "name": "Birra Auer Braü 50 cl", "desc": "Come 30 cl.", "price": "5,00", "tags": ["anidride solforosa e solfiti", "Frutta a guscio", "glutine"] }
+          ]
+        },
+        {
+          "nome": "Aperitivo analcolico",
+          "items": [
+            { "name": "Spritz veneziano analcolico", "desc": "Prosecco de alcolizzato, liquore giffard senza alcol, soda", "price": "4,00" },
+            { "name": "Hugo analcolico", "desc": "Prosecco de alcolizzato, sciroppo sambuca, soda, menta e lime", "price": "4,00" },
+            { "name": "Gingerino", "price": "3,00" },
+            { "name": "Crodino", "price": "3,00" },
+            { "name": "Sanbitter bianco", "price": "3,00" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "titolo": "Cocktails",
+      "sottocategorie": [
+        {
+          "nome": "Cocktails",
+          "items": [
+            { "name": "Aviation", "desc": "Gin, Maraschino, succo limone, violetta", "price": "7,00" },
+            { "name": "B&C", "desc": "Gin, polpa di cocco, polpa di mirtillo, succo di limone. Creato dal nostro Bartender M.T.", "price": "7,00" },
+            { "name": "Cuba libre", "desc": "Rum, Coca Cola, angostura, lime", "price": "7,00" },
+            { "name": "Alexander", "desc": "Cognac, crema cacao, crema di latte, noce moscata", "price": "6,50" },
+            { "name": "Apple ginger", "desc": "Liquore alla mela, ginger ale", "price": "6,00" },
+            { "name": "Black russian", "desc": "Vodka, kahlua", "price": "6,50" },
+            { "name": "Cocktail Martini", "desc": "Gin, Martini dry, twist limone", "price": "6,50" },
+            { "name": "Disaronno orange", "desc": "Amaretto di Saronno, succo di arancia", "price": "7,00" },
+            { "name": "Gin fizz", "desc": "Gin, succo di limone, sciroppo di zucchero, soda", "price": "6,50" },
+            { "name": "Godfather", "desc": "Scotch whisky, Amaretto di Saronno", "price": "6,50" },
+            { "name": "Julep mint", "desc": "Whisky, foglie di menta, sciroppo di zucchero", "price": "7,00" },
+            { "name": "Long Island", "desc": "Rum, triple sec, vodka, gin, sweet&sour, cola", "price": "7,00" },
+            { "name": "Malibù ananas", "desc": "Malibù, succo ananas", "price": "6,00" },
+            { "name": "Malibù cola", "desc": "Malibù, coca cola", "price": "6,50" },
+            { "name": "Rum cola", "desc": "Rum, Coca Cola", "price": "6,50" },
+            { "name": "Sazerac", "desc": "Cognac, zolletta di zucchero, Peychaud's bitter, assenzio", "price": "6,50" },
+            { "name": "Old fashioned", "desc": "Whisky Bourbon, zucchero bitter angostura, ciliegina", "price": "6,50" },
+            { "name": "Sex on the beach", "desc": "Vodka pesca, succo arancia, polpa di mirtillo", "price": "7,00" },
+            { "name": "Tequila sunset", "desc": "Tequila, succo di arancia, sciroppo di agave, granatina", "price": "6,50" },
+            { "name": "Tommy's Margarita", "desc": "Tequila, succo lime, sciroppo di agave", "price": "6,50" },
+            { "name": "Barbados", "desc": "Rum, lime, Falernum, spuma sambuco", "price": "7,00" },
+            { "name": "Spicy", "desc": "Brandy, eccentrico, amaretto di Saronno, sciroppo cannella, gocce tabasco. Creato dal nostro Bartender M.T.", "price": "7,00" },
+            { "name": "tokio ice tea", "desc": "Vodka, Rum bianco, Gin, liquore melone verde, Sweet & sour", "price": "7,00" },
+            { "name": "Caramel sour", "desc": "Liquore caramello, succo limone, sciroppo di zucchero, albume uovo. Creato dal nostro Bartender M.T.", "price": "7,00" },
+            { "name": "Velvet orange", "desc": "Triple sec, bitter cacao, succo arancia. Creato dal nostro Bartender M.T.", "price": "7,50" },
+            { "name": "Terra Rossa Sour", "desc": "Vodka, limone, sciroppo di zucchero e barbabietola rossa", "price": "7,00" },
+            { "name": "Suguar Kejsi", "desc": "Vodka, succo limone, sciroppo di zucchero e zucchero filato alla fragola. Creato dal nostro Bartender M.T.", "price": "7,50" },
+            { "name": "Historica Tympana", "desc": "Rum, falernum, passion fruit, lime fresco, ginger beer", "price": "7,00" }
+          ]
+        },
+        {
+          "nome": "Cocktails analcolici",
+          "items": [
+            { "name": "Blueberry Limenade", "desc": "Polpa di mirtillo, sciroppo di granata, Lemonsoda", "price": "5,00" },
+            { "name": "Mango julep", "desc": "Polpa di mango, ginger ale, foglie di menta", "price": "5,00" },
+            { "name": "Cinnamon stori", "desc": "Sciroppo di granatina, sciroppo di cannella, ginger ale", "price": "5,00" },
+            { "name": "Coconut paradise", "desc": "Polpa di cocco, succo ananas, arancia", "price": "5,00" },
+            { "name": "Esotic", "desc": "Polpa litchi, sprite", "price": "6,00" },
+            { "name": "Mojito analcolico", "desc": "Lime fresco, zucchero di canna bianco, foglie di menta fresche, soda", "price": "6,50" },
+            { "name": "Virgin Colada", "desc": "Succo ananas, polpa cocco, lime fresco spremuto, ciliegia candita", "price": "6,50" },
+            { "name": "Caipiroska fragola virgin", "desc": "Polpa fragole, lime fresco, zucchero canna bianco, soda", "price": "6,50" }
+          ]
+        },
+        {
+          "nome": "Mojito",
+          "items": [
+            { "name": "Mojito", "desc": "Rum, lime, zucchero di canna, menta, soda", "price": "7,00" },
+            { "name": "Mojito passion fruit", "desc": "Rum, lime, zucchero di canna, polpa passion fruit, menta, soda", "price": "7,50" },
+            { "name": "Mojito mango", "desc": "Rum, lime, zucchero di canna, polpa mango, menta, soda", "price": "7,50" },
+            { "name": "Forest mojito", "desc": "Rum, lime, zucchero di canna, polpa frutti di bosco, menta, soda", "price": "7,50" },
+            { "name": "Italian mojito", "desc": "Brancamenta, lime, zucchero di canna, menta, soda", "price": "7,50" },
+            { "name": "Mirtito", "desc": "Mirto, lime, zucchero di canna, menta, soda", "price": "7,50" },
+            { "name": "Mojito asian", "desc": "Rum, lime, menta, polpa lici", "price": "7,50" },
+            { "name": "Mojito xmas", "desc": "Rum, lime, cocco, zucchero di canna bianco", "price": "7,50" }
+          ]
+        },
+        {
+          "nome": "Pestati",
+          "items": [
+            { "name": "Caipiroska fragola", "desc": "Vodka, lime, zucchero di canna, polpa di fragola", "price": "7,00" },
+            { "name": "Caipirinha passion fruit", "desc": "Caipirinha, lime, zucchero di canna bianco, polpa passion fruit", "price": "7,50" },
+            { "name": "Pina colada", "desc": "Rum, polpa di cocco, succo di ananas", "price": "7,00" },
+            { "name": "Jack Sparrow daiquiri", "desc": "Rum, lime, polpa papaia, polpa passion fruit, succo arancia", "price": "7,50" },
+            { "name": "Mai Tai", "desc": "Rum, orange curacao, succo lime", "price": "7,50" },
+            { "name": "Painkiller tiki", "desc": "Rum, succo ananas, polpa di cocco, succo arancia, noce moscata", "price": "7,50" }
+          ]
+        },
+        {
+          "nome": "Mule",
+          "items": [
+            { "name": "Moscow mule", "desc": "Vodka, lime, ginger beer Fever Tree", "price": "7,00" },
+            { "name": "Mula blanca", "desc": "Tequila, lime, sciroppo rosmarino, ginger beer", "price": "7,00" },
+            { "name": "Nonino mule", "desc": "Amaro Nonino, lime, ginger beer", "price": "7,00" },
+            { "name": "Capo mule", "desc": "Amaro del Capo, lime, ginger beer", "price": "7,00" },
+            { "name": "Ten mule", "desc": "Gin Tanqueray Ten, lime, ginger beer, pimento macinato fresco", "price": "8,50" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gin",
+      "titolo": "Gin",
+      "sottocategorie": [
+        {
+          "nome": "Gin tonic",
+          "items": [
+            { "name": "gin opificio", "prices": [{ "label": "Classico", "price": "6,50" }] },
+            { "name": "Tanqueray n.10", "prices": [{ "label": "Classico", "price": "8,00" }, { "label": "Bassotto", "price": "4,50" }] },
+            { "name": "Brockmans (Mora, Orange)", "prices": [{ "label": "Classico", "price": "12,00" }, { "label": "Bassotto", "price": "6,00" }] },
+            { "name": "Brockmans agave", "prices": [{ "label": "Classico", "price": "15,00" }, { "label": "Bassotto", "price": "7,50" }] },
+            { "name": "Martin Miller's", "prices": [{ "label": "Classico", "price": "8,00" }, { "label": "Bassotto", "price": "4,00" }] },
+            { "name": "Etsu", "prices": [{ "label": "Classico", "price": "12,00" }, { "label": "Bassotto", "price": "6,00" }] },
+            { "name": "Doownpour pompelmo", "prices": [{ "label": "Classico", "price": "12,00" }, { "label": "Bassotto", "price": "6,00" }] },
+            { "name": "Monkey 47", "prices": [{ "label": "Classico", "price": "9,00" }, { "label": "Bassotto", "price": "5,50" }] },
+            { "name": "Portofino", "prices": [{ "label": "Classico", "price": "15,00" }, { "label": "Bassotto", "price": "7,50" }] },
+            { "name": "Professore Madame", "prices": [{ "label": "Classico", "price": "10,00" }, { "label": "Bassotto", "price": "5,50" }] },
+            { "name": "Professore Monsieur", "prices": [{ "label": "Classico", "price": "10,00" }, { "label": "Bassotto", "price": "5,50" }] },
+            { "name": "Professore Crocodile", "prices": [{ "label": "Classico", "price": "10,00" }, { "label": "Bassotto", "price": "5,50" }] },
+            { "name": "Adamus", "prices": [{ "label": "Classico", "price": "12,00" }, { "label": "Bassotto", "price": "6,00" }] },
+            { "name": "Nordes", "prices": [{ "label": "Classico", "price": "10,00" }, { "label": "Bassotto", "price": "5,00" }] },
+            { "name": "Mare", "prices": [{ "label": "Classico", "price": "9,00" }, { "label": "Bassotto", "price": "5,00" }] },
+            { "name": "Hendrick's", "prices": [{ "label": "Classico", "price": "9,00" }, { "label": "Bassotto", "price": "5,00" }] },
+            { "name": "Engine", "prices": [{ "label": "Classico", "price": "12,00" }, { "label": "Bassotto", "price": "6,00" }] },
+            { "name": "Poli Marconi 46", "prices": [{ "label": "Classico", "price": "8,50" }, { "label": "Bassotto", "price": "5,00" }] },
+            { "name": "Gin windspiel", "prices": [{ "label": "Bassotto", "price": "8,00" }, { "label": "Classico", "price": "15,00" }] },
+            { "name": "Amuerte black", "prices": [{ "label": "Classico", "price": "15,00" }, { "label": "Bassotto", "price": "8,00" }] },
+            { "name": "Amuerte green", "prices": [{ "label": "Bassotto", "price": "8,00" }, { "label": "Classico", "price": "15,00" }] },
+            { "name": "Amuerte blue", "prices": [{ "label": "Bassotto", "price": "8,00" }, { "label": "Classico", "price": "15,00" }] },
+            { "name": "Amuerte red", "prices": [{ "label": "Bassotto", "price": "8,00" }, { "label": "Classico", "price": "15,00" }] },
+            { "name": "Amuerte yellow", "prices": [{ "label": "Classico", "price": "15,00" }, { "label": "Bassotto", "price": "7,50" }] },
+            { "name": "Saigon Baigur", "prices": [{ "label": "Bassotto", "price": "6,00" }, { "label": "Classico", "price": "12,00" }] },
+            { "name": "J. Rose", "prices": [{ "label": "Classico", "price": "12,00" }, { "label": "Bassotto", "price": "6,00" }] },
+            { "name": "No. 3 gin", "prices": [{ "label": "Classico", "price": "12,00" }, { "label": "Bassotto", "price": "6,00" }] },
+            { "name": "Gold", "prices": [{ "label": "Classico", "price": "12,00" }, { "label": "Bassotto", "price": "6,00" }] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food-pasticceria",
+      "titolo": "Food e pasticceria",
+      "sottocategorie": [
+        {
+          "nome": "Piatti caldi",
+          "note": "Coperto 1,50€",
+          "items": [
+            { "name": "Cacio e pepe", "price": "9,50", "tags": ["Surgelato alta qualità", "Vegetariano", "glutine", "latte e derivati", "Uova e derivati"] },
+            { "name": "Tagliolini ai funghi", "price": "9,50", "tags": ["Vegetariano", "Surgelato alta qualità", "glutine", "Soia", "latte e derivati", "Uova e derivati"] },
+            { "name": "Strigoli al pesto", "price": "9,50", "tags": ["Vegetariano", "Surgelato alta qualità", "glutine", "Arachidi e derivati", "Frutta a guscio", "Uova e derivati"] },
+            { "name": "Garganelli salmone", "price": "9,50", "tags": ["glutine", "Uova e derivati", "Pesce", "Soia", "latte e derivati", "senape"] }
+          ]
+        },
+        {
+          "nome": "Taglieri misti",
+          "note": "Coperto 1,50€",
+          "items": []
+        },
+        {
+          "nome": "Panini caldi",
+          "items": [
+            { "name": "Boscaiolo", "desc": "Speck, formaggio, salsa funghi", "price": "8,50", "tags": ["congelato", "glutine", "Uova e derivati", "latte e derivati"] },
+            { "name": "Garibaldi", "desc": "Prosciutto crudo, mozzarella, pomodoro, insalata", "price": "8,50", "tags": ["congelato", "latte e derivati", "glutine"] },
+            { "name": "Vegetariano", "desc": "Mozzarella, pomodoro, insalata", "price": "7,50", "tags": ["Vegetariano", "congelato", "latte e derivati", "glutine"] },
+            { "name": "Giotto", "desc": "Prosciutto cotto, formaggio, salsa rosa, insalata", "price": "7,50", "tags": ["congelato", "latte e derivati", "glutine", "Uova e derivati"] },
+            { "name": "Hot Dog", "prices": [{ "label": "Senza salsa", "price": "4,00" }, { "label": "Con salsa", "price": "4,50" }], "tags": ["congelato", "glutine"] },
+            { "name": "Toast", "desc": "Prosciutto, formaggio", "prices": [{ "label": "Senza salsa", "price": "5,00" }, { "label": "Con salsa", "price": "5,50" }], "tags": ["congelato", "latte e derivati", "glutine"] },
+            { "name": "Toast farcito", "prices": [{ "label": "Senza salsa", "price": "5,50" }, { "label": "Con salsa", "price": "6,00" }], "tags": ["congelato", "latte e derivati", "glutine"] },
+            { "name": "Nemo", "desc": "Tonno, pomodoro, lattuga, paté olive e salsa tabasco", "price": "8,50", "tags": ["anidride solforosa e solfiti", "congelato", "Pesce", "acido ascorbico", "glutine"] }
+          ]
+        },
+        {
+          "nome": "Piatti freddi",
+          "note": "Coperto 1,50€",
+          "items": [
+            { "name": "Insalatona", "desc": "Insalata, pomodoro, cetriolo, mozzarella, tonno, mais, olive", "price": "10,00", "tags": ["Vegetariano", "Pesce", "latte e derivati", "anidride solforosa e solfiti"] },
+            { "name": "Insalata greca", "desc": "Insalata, feta, cetriolo, olive, pomodoro, origano", "price": "10,00", "tags": ["Vegetariano", "anidride solforosa e solfiti", "latte e derivati"] }
+          ]
+        },
+        {
+          "nome": "Snack",
+          "note": "Alcuni prodotti sono surgelati di prima qualità",
+          "items": [
+            { "name": "grissino con crudo San Daniele", "price": "2,50", "tags": ["glutine"] },
+            { "name": "Tartina con cotto e cren", "price": "3,00", "tags": ["glutine", "sesamo", "latte e derivati", "Soia"] },
+            { "name": "tartina crudo San Daniele 18 mesi", "price": "3,00", "tags": ["glutine"] },
+            { "name": "tartina con speck", "price": "3,00", "tags": ["glutine"] },
+            { "name": "tartina con salame", "price": "3,00", "tags": ["glutine"] },
+            { "name": "Tartina vegetariana", "price": "3,00", "tags": ["glutine"] },
+            { "name": "Tramezzini", "price": "3,50", "tags": ["congelato", "latte e derivati", "glutine", "Pesce", "Uova e derivati", "anidride solforosa e solfiti"] },
+            { "name": "Focaccia", "price": "4,50", "tags": ["congelato", "glutine", "Soia", "latte e derivati", "Frutta a guscio", "Sesamo", "senape"] },
+            { "name": "Pizzetta margherita", "price": "4,00", "tags": ["congelato", "glutine", "Uova e derivati", "Sesamo", "Frutta a guscio"] },
+            { "name": "Pizzetta farcita", "price": "5,00", "tags": ["congelato", "glutine", "Sesamo", "Uova e derivati", "Frutta a guscio"] },
+            { "name": "Panino nero due varianti", "desc": "Speck, cetriolini e maionese oppure speck funghi e edamer", "price": "4,50", "tags": ["congelato", "anidride solforosa e solfiti", "latte e derivati", "Uova e derivati", "glutine"] }
+          ]
+        },
+        {
+          "nome": "Pasticceria",
+          "note": "Alcuni prodotti sono surgelati",
+          "items": [
+            { "name": "Brioche vuota", "price": "1,50", "tags": ["congelato", "glutine", "Uova e derivati", "sesamo", "Soia"] },
+            { "name": "Brioche farcita", "price": "1,80", "tags": ["congelato", "glutine", "latte e derivati", "Uova e derivati"] },
+            { "name": "Brioche cereali vuota", "price": "1,70", "tags": ["congelato", "glutine", "latte e derivati", "Uova e derivati", "sesamo", "Frutta a guscio", "Soia"] },
+            { "name": "Brioche cereali farcita", "price": "1,90", "tags": ["congelato", "glutine", "latte e derivati", "sesamo", "Uova e derivati", "Soia", "Frutta a guscio"] },
+            { "name": "krapfen vuoto", "price": "1,50", "tags": ["congelato", "glutine", "Soia", "Frutta a guscio", "Sesamo", "latte e derivati", "anidride solforosa e solfiti"] },
+            { "name": "Krapfen farcito", "price": "1,80", "tags": ["congelato", "glutine"] },
+            { "name": "Aragostina al cioccolato", "price": "1,20", "tags": ["glutine", "Uova e derivati", "latte e derivati", "Soia", "Frutta a guscio"] },
+            { "name": "Baci di dama", "price": "0,80", "tags": ["glutine", "Uova e derivati", "Soia", "Frutta a guscio", "latte e derivati"] },
+            { "name": "Tartelle", "price": "1,50", "tags": ["glutine", "latte e derivati", "Uova e derivati"] },
+            { "name": "Donut", "price": "2,00", "tags": ["congelato", "glutine", "Frutta a guscio", "latte e derivati", "sesamo", "Soia"] },
+            { "name": "Muffin", "price": "2,80", "tags": ["congelato", "glutine", "latte e derivati", "Uova e derivati"] },
+            { "name": "Biscotto occhio di bue", "price": "2,00", "tags": ["glutine", "Uova e derivati", "latte e derivati", "crostacei", "Frutta a guscio", "Soia", "Sesamo", "senape"] },
+            { "name": "mini conetto dolce", "price": "1,10", "tags": ["congelato", "glutine", "latte e derivati", "Uova e derivati"] },
+            { "name": "Cannoli pistacchio", "price": "1,30", "tags": ["glutine", "latte e derivati", "Uova e derivati", "Arachidi e derivati", "Soia", "Frutta a guscio", "Sesamo"] },
+            { "name": "Pasticciotto crema e amarena", "desc": "Pasta frolla, crema pasticcera, amerena. Servito con panna e topping", "price": "3,50", "tags": ["congelato", "glutine", "Uova e derivati", "latte e derivati"] }
+          ]
+        },
+        {
+          "nome": "Crème fredde",
+          "items": [
+            { "name": "Frullato proteico cookie", "price": "6,00" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "caffetteria-bibite",
+      "titolo": "Caffetteria, bibite",
+      "sottocategorie": [
+        {
+          "nome": "Caffetteria",
+          "items": [
+            { "name": "Caffè", "price": "1,40" },
+            { "name": "Ginseng", "price": "1,80" },
+            { "name": "Orzo", "price": "1,50" },
+            { "name": "Decaffeinato", "price": "1,50" },
+            { "name": "Macchiato", "price": "1,40" },
+            { "name": "Capuccino", "price": "1,90" },
+            { "name": "Macchiatone", "price": "1,70" },
+            { "name": "Cioccolata", "desc": "Gusti: classica, gianduia, bianca, fondente, arancia e cannella", "price": "3,00", "tags": ["Senza glutine"] },
+            { "name": "Marocchino", "price": "2,30" },
+            { "name": "Mocaccino", "price": "3,00" },
+            { "name": "Nocciolino", "price": "3,00" }
+          ]
+        },
+        {
+          "nome": "Bibite",
+          "items": [
+            { "name": "Acqua bicchiere", "price": "1,00" },
+            { "name": "Acqua bottiglia", "prices": [{ "label": "50cl", "price": "1,30" }, { "label": "100cl", "price": "2,50" }] },
+            { "name": "Coca Cola/Zero bottiglietta", "price": "3,00" },
+            { "name": "Coca spina piccola", "price": "2,50" },
+            { "name": "Coca cola spina grande", "price": "5,00" },
+            { "name": "Fanta", "price": "3,00" },
+            { "name": "Te freddo pesca / limone", "price": "3,00" },
+            { "name": "Schweppes Lemon", "price": "3,00" },
+            { "name": "Sprite", "price": "3,00" },
+            { "name": "Succo di frutta", "desc": "Gusti: pesca, albicocca, ananas, mirtillo, pera, mela, arancia", "price": "3,00" },
+            { "name": "Acqua e sciroppo", "desc": "Gusti: Lampone, menta, sambuco e rosa", "price": "2,00" },
+            { "name": "Redbull", "price": "4,00" },
+            { "name": "Tonica brillante Recoaro", "price": "3,00" }
+          ]
+        },
+        {
+          "nome": "thè e infusi",
+          "items": [
+            { "name": "thè nero top quality", "desc": "Thè nero di altissima qualità perfetto per la prima colazione", "price": "3,00" },
+            { "name": "thè nero Orange Pekoe", "desc": "Thè nero di livello superiore. Da provare puro o con limone o latte", "price": "3,00" },
+            { "name": "thè verde Sencha con Ciliegie", "desc": "Thè verde giapponese di prima qualità", "price": "3,00" },
+            { "name": "thè deteinato", "desc": "Adatto a ogni momento della giornata", "price": "3,00" },
+            { "name": "infuso digestivo", "desc": "Infuso a base anice, verbena, camomilla, menta e liquirizia", "price": "3,00" },
+            { "name": "infuso frutti di bosco", "desc": "Miscela con ibisco, mela, mora, lampone, fragola, rosa canina e bacche di sambuco", "price": "3,00" },
+            { "name": "camomilla", "desc": "100% fiori di camomilla pura", "price": "3,00" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vermouth",
+      "titolo": "Vermouth",
+      "sottocategorie": [
+        {
+          "nome": "I nostri Vermouth",
+          "note": "Da bere in purezza",
+          "items": [
+            { "name": "Punt & Mes", "price": "4,50" },
+            { "name": "Carlo Alberto", "price": "5,00" },
+            { "name": "Cocchi", "price": "4,50" },
+            { "name": "Carpano classico", "price": "5,00" },
+            { "name": "Carpano antica formula", "price": "6,50" },
+            { "name": "vermouth del professore rosso", "price": "6,00" },
+            { "name": "Martini rosso rubino", "price": "5,00" },
+            { "name": "Carlo Alberto rosso riserva", "price": "6,50" },
+            { "name": "Antica torino", "price": "5,50" },
+            { "name": "Cocchi dopo teatro", "price": "5,50" },
+            { "name": "Etrusco nero", "price": "5,50" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vini",
+      "titolo": "Vini",
+      "sottocategorie": [
+        {
+          "nome": "Vini bianchi",
+          "items": [
+            { "name": "Friulano castello di spessa", "desc": "FRIULANO. Giallo paglierino con riflessi verdi. Sentori di mela, pera e frutta bianca.", "prices": [{ "label": "calice", "price": "3,00" }, { "label": "bottiglia", "price": "18,00" }] },
+            { "name": "pinot grigio castello di spessa", "desc": "Note di frutta matura e fiori d'acacia. Persistente, asciutto e fresco.", "prices": [{ "label": "calice", "price": "3,00" }, { "label": "bottiglia", "price": "18,00" }] },
+            { "name": "malvasia Gradis'ciutta", "desc": "Giallo paglierino. Bouquet con agrumi, mela delizia e note di crema.", "prices": [{ "label": "calice", "price": "3,00" }, { "label": "bottiglia", "price": "18,00" }] },
+            { "name": "sauvignon castello di spessa", "desc": "Giallo paglierino con riflessi verdi. Albicocca, frutta tropicale e foglia di pomodoro.", "prices": [{ "label": "calice", "price": "3,00" }, { "label": "bottiglia", "price": "18,00" }] },
+            { "name": "GEWURTZTRAMINER San Michele appiano", "desc": "Bouquet intenso e complesso, fruttato e speziato.", "prices": [{ "label": "calice", "price": "4,50" }, { "label": "bottiglia", "price": "30,00" }] }
+          ]
+        },
+        {
+          "nome": "Vini rossi",
+          "items": [
+            { "name": "merlot Cormons", "desc": "Rosso intenso con riflessi granati. Frutta matura, note erbacee. More e mirtilli.", "prices": [{ "label": "calice", "price": "3,00" }, { "label": "bottiglia", "price": "18,00" }] },
+            { "name": "Vertigo", "desc": "Aromi fragolina di bosco, mirtillo, cacao, spezie dolci e crema pasticcera.", "prices": [{ "label": "calice", "price": "4,00" }, { "label": "bottiglia", "price": "25,00" }] },
+            { "name": "fiegl Cabernet Sauvignon", "desc": "Rosso rubino con riflessi porpora. Vinoso, fruttato (mora), tannino fine.", "prices": [{ "label": "calice", "price": "4,00" }, { "label": "bottiglia", "price": "25,00" }] },
+            { "name": "pinot nero San Michele appiano", "desc": "Pinot Noir. Rosso granato, bacche rosse e frutti di bosco. Corposo ed elegante.", "prices": [{ "label": "calice", "price": "4,50" }, { "label": "bottiglia", "price": "30,00" }] }
+          ]
+        },
+        {
+          "nome": "Bollicine",
+          "items": [
+            { "name": "ribolla spumantizzata castel di spessa", "desc": "Note di biancospino e pesche bianche. Fresco e delicato.", "prices": [{ "label": "calice", "price": "3,00" }, { "label": "bottiglia", "price": "18,00" }] },
+            { "name": "prosecco Bedin D.O.C. Treviso brut", "desc": "Fruttato con mela verde e pera. Fresco e ben equilibrato.", "prices": [{ "label": "calice", "price": "3,00" }, { "label": "bottiglia", "price": "18,00" }] }
+          ]
+        }
+      ]
+    }
+  ]
+}
